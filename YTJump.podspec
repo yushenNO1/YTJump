@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "ShenTing" => "yutingwong@qq.com" }
+  s.author             = { "shenTing" => "yutingwong@qq.com" }
   # Or just: s.author    = ""
   # s.authors            = { "" => "" }
   # s.social_media_url   = "http://twitter.com/"
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -91,8 +91,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "YTJump", "YTJump/**/*.{h,m}"
-  s.exclude_files = "YTJump/Exclude"
+  s.source_files  = "YTJump", "YTJump/*.{h,m}"
+
 
   # s.public_header_files = "Classes/**/*.h"
 
